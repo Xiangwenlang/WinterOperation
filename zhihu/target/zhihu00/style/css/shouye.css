@@ -1,0 +1,370 @@
+body{
+    margin: 0;
+    background-color: rgb(246, 246, 246);
+    height: 300000px;
+}
+/* 被固定的导航栏 */
+#guide{
+    z-index: 4;
+    background-color: rgb(255, 255, 255);
+    width: 1530px;
+    height: 52px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    border: 3px red;
+}
+a{
+    text-decoration: none;
+}
+#guide_1{
+    margin-left: 260px;
+}
+.guide_2{
+    display: block;
+    float: left;
+    height: 10px;
+    line-height: 52px;
+    padding-left: 20px;
+}
+#search{
+    padding-top: 12px;
+    float: left;
+    padding-left: 20px;
+}
+#user_search{
+    height: 32px;
+    width: 330px;
+    border: none;
+    padding-top: 5px;
+    border-radius: 2px;
+    box-shadow:0px 0px 3px #000; 
+    background-color: rgb(246, 246, 246);
+}
+#submit{
+    background-color: rgb(0, 132, 255);
+    border: none;
+    width: 60px;
+    height: 32px;
+    color: rgb(213, 235, 255);
+    margin-left: 16px;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-right: 175px;
+}
+.guide_3{
+    width: 20px;
+    height: 20px;
+    margin-right: 40px;
+    position: relative;
+    top: 8px;
+}
+
+/* 创作 */
+#create{
+    width: 670px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 60px;
+    margin-left: 18%;
+    line-height: 60px;
+}
+#create a{
+    padding-left: 20px;
+}
+#create a img{
+    width: 20px;
+    height:20px;
+    padding-right: 6px;
+    position: relative;
+    top: 2px;
+}
+#draft{
+    float: right;
+    margin-right: 20px; 
+}
+/* 中心 问题区，知乎的核心 */
+#qustions{
+    margin-left: 18%;
+    width: 670px;
+    height: 1000px;
+    margin-top: 15px;
+}
+#approve{   
+    min-height: 280px;
+    width: 670px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+#approve span{
+     line-height: 35px; 
+} 
+.a_name{  
+    line-height: 35px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.c_name{
+    font-size: 18px;
+}
+.outline{
+    font-size: 20px;
+    margin-left: 15px;
+    line-height: 35px;
+}
+#chris_photo{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    position: relative;
+    top: 6px; 
+}
+.a_approve{
+    background-image: url(l_5.png);
+    width: 75px;
+    height: 30px;
+    color: rgb(0, 132, 255);
+    margin-left: 15px;
+}
+.disapprove{ 
+    height: 30px;
+    width: 35px;
+    background-image: url(l_6.png);
+    position: relative;
+    top: 6px;
+    margin-right: 50px;
+}
+#article{
+    margin-top: 8px;
+    margin-left: 15px;
+    width: 640px;
+    min-height: 100px;
+    border-radius: 4px;
+}
+.ar_pic{
+    float: left;
+    height: 100px;
+    width: 190px;
+    background: url(ljj.jpg) center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#word{ 
+    overflow: hidden;
+    float: left;
+    margin-left: 10px;
+    width: 440px;
+    height: 100px;
+    word-break:break-all;
+    position: relative;
+}
+.zk_btn{
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    display: none;
+}
+/* 发表文章 */
+#pubulishAnArticle{
+    width: 670px;
+    height: 250px;
+    background-color:rgb(255, 255, 255);
+    margin-top: 15px;
+}
+.approverNumber{
+    margin-left: 15px;
+}
+.afterArticle{
+    height: 30px;
+    width: 670px;
+    margin-top: 15px;
+}
+.p_a_a{
+    width: 54px;
+    height: 30px;
+    background-image: url(a.png);
+    border: none;
+    outline: none;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.a_number{
+    position: relative;
+    top: 3px;
+    left: 8px;
+}
+.afterArticle button{
+    outline: none;
+    border:none;
+    background-color: rgb(255, 255, 255);
+}
+.afterArticle button img{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* 侧栏 */
+#rightStory{
+    position:fixed;
+    top: 60px;
+    left: 64%;
+    z-index: 1;
+    width: 300px;
+    height: 1000px;
+    background-color: rgb(246, 246, 246);
+    margin-left: 10px;
+}
+/* right_1 */
+#r_1{
+    width: 300px;
+    height: 175px;
+    background-color: rgb(255, 255, 255);
+}
+#r_1 a div{
+    width: 60px;
+    height: 50px;
+    float: left;
+    padding-left: 25px;
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(163, 144, 166)
+}
+/* right_2 */
+#r_2{
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    margin-top: 12px;
+    font-size: 14px;  
+    background-color: rgb(255, 255, 255);
+}
+#r_2 div{
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+}
+#r_2 a div img{
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+/* right_3ee */
+#r_3{
+    color: rgb(147, 144, 173);
+    line-height: 25px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+#r_3 a{
+    text-decoration: none;
+    color: rgb(147, 144, 173);
+}
+/* 评论 */
+ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+#comment_box {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: none;
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    width: 520px;
+    height: 28px;
+    outline: none;
+    resize: none;
+}
+li{
+    margin-left: -60px;
+    width: 450px;
+    min-height: 40px;
+    margin-top: 60px;
+    padding-bottom: 10px;
+    border-width: 0 0 2px 0;
+}
+ul {
+    min-height: 20px;
+    width: 450px;
+    padding-left: 80px;
+    position: relative;
+    display: block;
+}
+/* .closeTheComment{
+    background-color: rgb(255, 255, 255);
+    color: lightskyblue;
+    box-shadow: none;
+    margin-left: 530px;
+    border: none;
+    outline: none;
+} */
+.input{
+    float: left;
+}
+.pinglun{
+    position: relative;
+}
+.shanchu{
+    position: absolute;
+    top: 25px;
+    left: 1px;
+    outline: none;
+    border: none;
+}
+.dianzan{
+    position: absolute;
+    top: 25px;
+    left: 48px;
+    outline: none;
+    border: none;
+}
+.touxiang{
+    position: absolute;
+    top: -25px;
+    background-image: url(chris.jpg);
+    width: 20px;
+    height: 20px;
+}
+.nicheng{
+    position: absolute;
+    top: -25px;
+    left: 30px;
+}
+#myPoint {
+    float: left;
+    height: 32px;
+    width: 74px;
+    background-color: #4262f5;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    cursor: default;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 2px;
+}
+.oline{
+    background-color: black;
+    width: 550px;
+    height: 2px;
+    position: absolute;
+    top: 50px;
+}

@@ -1,0 +1,41 @@
+
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>UserregisterServlet</servlet-name>
+    <servlet-class>com.denny.user.servlet.UserregisterServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>UserloginServlet</servlet-name>
+    <servlet-class>com.denny.user.servlet.UserloginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetTitle</servlet-name>
+    <servlet-class>com.denny.user.servlet.GetTitle</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetTitleListServlet</servlet-name>
+    <servlet-class>com.denny.user.servlet.GetTitleListServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UserregisterServlet</servlet-name>
+    <url-pattern>/UserregisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserloginServlet</servlet-name>
+    <url-pattern>/UserloginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTitle</servlet-name>
+    <url-pattern>/GetTitle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTitleListServlet</servlet-name>
+    <url-pattern>/GetTitleListServlet</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>

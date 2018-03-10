@@ -1,0 +1,89 @@
+body{
+     color:#0084ff;
+     text-align: center;
+     background-color: #edf4fa;
+     border: none;
+     background-image: url(知乎背景.png);
+}
+a{
+    text-decoration: none;
+    
+}
+input{
+    border: none;
+    outline: none;
+}
+#registerBox{
+    box-shadow: 1px 1px #c6c2ce;
+    margin: 0 auto;
+    height: 100%;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding-top: 3%;
+    margin-top: 60px;
+}
+#zhihu_logo{
+    height: 70.635px;
+    width: 180px;
+}
+.continer{
+    margin-top:10px;
+}
+.line{
+    width:350px;
+    height:2px;
+    background-color:rgb(235, 235, 235); 
+    margin-left: 35px;
+}
+.btnSub{
+    width: 350px;
+    height: 36px;
+    background-color: #0084ff;
+    border-radius: 5px;
+    border: none;
+    color: #edf4fa;
+    margin-top: 30px;
+}
+.tab-con input{
+    height: 45px;
+    margin-left: -140px;
+
+}
+#enroll{
+    margin-top: 20px;
+    width: 400px;
+    font-size: 14px;
+}
+#entry{
+    width: 420px;
+    height: 60px;
+    background-color: rgb(246, 246, 246);
+    margin-top: 50px;
+}
+#zhihuAd{
+    width: 420px;
+    height: 42px;
+    color: #fff;
+    background: #8590a6;
+    line-height: 42px;
+    border: none;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+footer{
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    color: rgb(133, 144, 166);
+    line-height: 21px;
+    font-size: 12px;
+    margin-top: 60px;
+}
+footer div{
+    font-size: 12px;
+    line-height: 21px;
+    color: #8590a6;
+}
