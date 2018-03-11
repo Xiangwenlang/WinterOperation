@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页 - 知乎</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://static.zhihu.com/static/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="shouye.css">
+    <script type="text/javascript" src="shouye1.js"></script>
+</head>
+<body>
+
+    <!-- 导航栏 -->
+    <div id="guide">
+        <a href="" class="guide_2" id="guide_1">
+            <img style="height:51px" src="zhihu.png">
+        </a>
+        <a href="" class="guide_2">首页</a>
+        <a href="" class="guide_2">发现</a>
+        <a href="" class="guide_2">话题</a>
+        <form action="" method="get" id="search">
+            <input type="search" id="user_search" placeholder="搜索你感兴趣的内容..." />
+            <input type="submit" value="提问" id="submit"/>
+        </form>
+        <a href="" class="guide_3">
+            <img src="g_3_1.png">
+        </a>
+        <a href="" class="guide_3">
+            <img src="g_3_2.gif">
+        </a>
+        <a href="" class="guide_3">
+            <img src="chris.jpg">
+        </a>
+    </div>
+<div id="page">
+    <!-- 创作栏 -->
+    <div id="leftStory">
+    <div id="create">
+        <a href=""><img src="c_1.gif">提问</a>
+        <a href=""><img src="c_2.gif">回答</a>
+        <a href=""><img src="c_3.gif">写文章</a>
+        <a href=""><img src="c_4.gif">写想法</a>
+        <a id="draft" style="color:rgb(133, 144, 166);">草稿</a>
+    </div>
+    <!-- 核心：问题们 --> 
+    <div id="qustions">
+        <!-- 某用户赞同了问题 -->
+        <div id="approve">
+            <span class="a_name">平淡无奇</span>赞同了回答·<span id="a_time"></span><br>
+            <img id="chris_photo" src="chris.jpg">
+            <span class="c_name">李小龙</span>，<span class="signature">防守牢不可破，城市岿然不动，誓要把侵略者一扫空！</span><br>
+            <strong class="outline" >你为什么这么愚蠢？</strong><br>
+            <div id="article_1">
+                <div class="ar_pic">
+                </div>
+                <div id="word">
+                    <span id="words">他爹是个闯关东的农民，他妈应该是个落魄流落中国的白俄女人，这种家庭组合本身就是个悲伤的故事。父母双亡后，兄妹三人，一人病死，一人流散，他也被人收养，过得很不好，被迫11岁跑出去当八路。那些吹民国盛世的人呢？一个有外国血统的孤儿能够在解放军干到空军副司令，说明这支军队在那个年代是向平民子弟敞开上升通道的。那一代人是真对党感恩，真愿意为理想献身，现在的人不懂这种感情。引进su27那事是一个老飞的坚持。中国这种面积广阔的国家，没有大航程的空军就是一个噩梦，参考120公里续航的电动车只能在城里通勤和600公里汽油车则能奔向远方，谁用谁知道。当时苏联不想卖，中国也没钱。中方有些人也觉得mig29将就够用，但林虎这样坚持使中央下了决心，非su27不要，这才逼毛子拿出压箱底的好东西。今天回过头来看，没有引进su27，歼10，甚至歼20都要晚几年了。1997年8月23日，70岁的林虎将军驾驶苏-30战机进行了特技飞行动作：翻筋斗、半筋斗翻转、横滚、超低空通过机场、大坡度低空急转弯、飞机攻角接近120度的“眼镜蛇”动作。这是我所知世界上驾驶这类战机做眼镜蛇动作年龄最大的飞行员。他大概是想为那些求稳妥保安全的年轻人们立一个样子。他痛恨那种的行径。他说:“糊涂！怕摔飞机怎么能飞出战斗力？真是岂。。。杞人忧天。”“如果到时候你们把事情搞砸了，在规定的时间内无法形成战斗力，哼~哼！”“小心我拔你的皮！” 他不像某些将军到处挂名著书立作，一生只写了一本书:《保卫祖国领空的战斗》。这九个字大概也是他一生的愿望和缩影。凌晨得知将军离开的消息，不胜悲哀。将军一路走好!</span>
+                    <button class="zk_btn">展开全文</button>   
+                </div>
+            </div>
+            <div class="afterarticle_1">
+                <button class="a_approve">
+                    <span id="a_number">
+                            1222
+                    </span>
+                </button>
+                <button class="disapprove">
+
+                </button>
+                <button class="comment">
+                    <img src="l_1.png" alt="评论">评论
+                </button>
+
+                <button>
+                    <img src="l_2.png" alt="分享">
+                    <sapn class="share">分享</sapn>
+                </button>
+                <button>
+                    <img src="l_3.png" alt="收藏"> 
+                    <span class="p_a_c_collect">收藏</span>
+                </button>
+                <button>
+                    <img src="4_13.png" alt="举报">
+                    <span class="p_a_c_report">感谢</span>
+                </button>
+                <button id="more">
+                    ···
+                </button>
+            </div>
+            <!-- 评论 -->
+            <div id="comment_box">
+                <div class="input">
+                        <textarea name="" id="txt"></textarea>
+                        <button id="myPoint">
+                        评论
+                        </button>
+                        <ul id="ul">
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 某用户发表了文章  -->
+        <div id="pubulishAnarticle_1">
+                <span class="a_name"></span>皮耶霍发表了文章·<span id="a_time">一分钟前</span><br>
+                <strong class="outline">前第二代铜头谭江柏：踢过奥运杠过枪，有好儿子晚景佳</strong><br>
+                <span><span class="approverNumber">一人赞了该文章</span></span>
+                <div id="article_1">
+                    <div class="ar_pic">
+                        <img alt="" src="tjb.jpg">
+                    </div>
+                    <div id="words">
+                            众所周知，香港有一支极为活跃的足球明星队，这支明星球队自从1986年成立后，几乎每年都会有十几场甚至数十场慈善性质的友谊赛，曾志伟、陈百祥、黄日华、任达华等人都是球队中的活跃分子。而这支球队的发起人，正是著名歌星谭咏麟。
+                    </div>
+               </div>
+               <div class="afterarticle_1">
+                   <button class="p_a_a"><span class="a_number">223</span></button>
+                   <button class="p_a_comment">
+                       <img src="l_1.png" alt="评论">
+                       <sapn class="p_a_c_number">5</sapn>条评论
+                   </button>
+                   <button>
+                       <img src="l_2.png" alt="分享">
+                       <sapn class="share">分享</sapn>
+                   </button>
+                   <button>
+                       <img src="l_3.png" alt="收藏"> 
+                       <span class="p_a_c_collect">收藏</span>
+                   </button>
+                   <button>
+                        <img src="l_7.png" alt="举报">
+                        <span class="p_a_c_report">举报</span>
+                   </button>
+               </div>
+        </div>
+    </div>
+<!-- </div> -->
+    <!-- 侧栏 -->
+</div>
+<div>
+    <div id="rightStory">
+        <!-- right_1 -->
+        <div id="r_1">
+            <a href="">
+                <div id="live">
+                    <img src="r_1_1.gif"><br>live
+                </div>
+            </a>
+            <a href="">
+                <div id="books">
+                    <img src="r_1_2.gif"><br>书店
+                </div>
+            </a>
+            <a href="">
+                <div id="Rtable">
+                    <img src="r_1_3.jpg"><br>圆桌
+                </div>
+            </a>
+            <a>
+                <div id="Scolumn">
+                    <img src="r_1_4.gif"><br>专栏
+                </div>
+            </a>
+            <a href="">
+                <div id="payAsk">
+                    <img src="r_1_5.gif"><br>付费咨询
+                </div>
+            </a>
+        </div>
+        <!-- right_2 -->
+        <div id="r_2">
+            <a href="">
+                <div>
+                    <img src="r_2_1.gif" >我的收藏
+                </div>
+            </a>
+            <a href="">
+                <div>
+                    <img src="r_2_2.png" >我关注的问题
+                 </div>
+            </a>
+            <a href="">
+                <div>
+                    <img src="r_2_3.png" >我的邀请
+                </div>
+            </a>  
+            <a href="">
+                <div>
+                    <img src="r_2_4.png" >我的礼券
+                </div>
+            </a>
+            <a href="">
+                <div>
+                    <img src="r_2_5.png" >社区服务中心
+                </div>
+            </a>
+            <a href="">
+                <div>
+                    <img src="r_2_6.gif" >版权服务中心
+                </div>
+            </a> 
+            <a href="">
+                <div>
+                    <img src="r_2_7.png" >公共编辑栏
+                </div>
+            </a>           
+        </div>
+        <!-- right_3 -->
+        <div id="r_3">
+            <a href="">刘青山</a>·
+            <a href="">知乎指南</a>·
+            <a href="">知乎协议</a>·
+            <a href="">应用</a>·
+            <a href="">工作</a><br>
+            <a href="">申请开通知乎机构号</a><br>
+            <a href="">侵权举报</a>·
+            <a href="">网上有害信息举报专区</a><br>
+            违法和不良内容举报：010-82716601<br>
+            <a href="">联系我们</a>© 2018 知乎
+
+        </div>
+    </div>
+</div>
+</div>    
+</body>
+</html>

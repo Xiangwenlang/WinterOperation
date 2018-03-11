@@ -1,0 +1,120 @@
+html{
+    height:100%;
+}
+body{
+    min-height:100%;
+    margin:0;
+    padding:0;
+    background-image: url(知乎背景.png);
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* 登陆框 */
+#entry_box{
+    height: 447px;
+    width: 432px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 60px;
+    border-radius: 2px;
+    text-align: center;
+}
+#logo{
+    color: rgb(0, 132, 255);
+    font-size: 55px;
+    display: block;
+    margin-top: 20px;
+}
+#adWord{
+    color: rgb(0, 132, 255);
+    font-size: 22px;
+    font-family: Microsoft YaHei;
+}
+#signFlow{
+    width: 432px;
+    height: 284px;
+    /* background-color: yellow; */
+    margin-top: 20px;
+}
+#signFlow input{
+    border: none;
+    outline: none;
+    display: block;
+    margin-left: 35px;
+    width: 352px;
+    height: 48px;
+}
+a{
+    text-decoration: none;
+}
+.line{
+    width:350px;
+    height:2px;
+    background-color:rgb(235, 235, 235); 
+    margin-left: 35px;
+}
+#ifForget{
+    color: rgb(26, 26, 26);
+    display: justify;
+    /* background-color: cadetblue; */
+    margin: 0 auto;
+    margin-top: 12px;
+    width: 352px;
+    height: 20px;
+}
+#loginBuutton{
+    background-color: rgb(0, 132, 255);
+    width: 352px;
+    height: 36px;
+    color: #fff;
+    line-height: 36px;
+    font-size: 14px;
+    border: 1px solid;
+    margin-top: 20px;
+}
+#longin-footer{
+    width: 352px;
+    /* background-color: springgreen; */
+    margin: 0 auto;
+    margin-top: 16px;
+}
+#longin-footer button{
+    border: none;
+    background: none;
+}
+/* 注册 */
+#if_enroll{
+    width: 432px;
+    height: 58px;
+    line-height: 58px;
+    background: rgb(246, 246, 246);
+    text-align: center;
+}
+#app{
+    border: none;
+    width: 432px;
+    height: 42px;
+    margin-top: 30px;
+    background-color: #8590a6;
+    color: rgb(255, 255, 255);
+    line-height: 42px;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    color: rgb(133, 144, 166);
+    line-height: 21px;
+    font-size: 12px;
+    margin-top: 60px;
+}
+footer div{
+    font-size: 12px;
+    line-height: 21px;
+    color: #8590a6;
+}
+#zhihuGolry img a strong{
+    position: relative;
+}
